@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <header className="navbar" style={scrolled ? { background: 'rgba(22, 23, 25, 0.95)', boxShadow: '0 5px 20px rgba(0, 0, 0, 0.5)', padding: '1rem 0' } : {}}>
       <div className="container nav-content">
-        <a href="#" className="logo">BODY <span>GROOVE</span></a>
+        <a href="#" className="logo">BODY <span>GROOVE</span> | İlkay Gürsu</a>
         <nav className="nav-links">
           <a href="#nasil-calisir" onClick={(e) => scrollToSection(e, 'nasil-calisir')}>Nasıl Çalışır?</a>
           <a href="#egitmen" onClick={(e) => scrollToSection(e, 'egitmen')}>Eğitmen</a>
@@ -281,7 +281,7 @@ function App() {
 
       <footer className="footer">
         <div className="container footer-content">
-          <div className="footer-logo">BODY <span>GROOVE</span></div>
+          <div className="footer-logo">BODY <span>GROOVE</span> | İlkay Gürsu</div>
           <p>© 2026 Body Groove Türkiye - İlkay Gürsu. Tüm hakları saklıdır.</p>
           <div className="footer-links">
             <a href="#">Gizlilik Politikası</a>
